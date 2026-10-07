@@ -19,5 +19,3 @@ La sicurezza è stata implementata a livello di rete con un approccio "Zero Trus
 - **Security Group a Cascata:** Le regole di firewalling (Security Groups) sono concatenate. L'App Tier accetta traffico *solo* dal Security Group dell'ALB. Il Data Tier accetta connessioni *solo* dal Security Group dell'App Tier.
 - **Gestione Dinamica:** Utilizzo di Terraform `data sources` per il recupero dinamico e automatizzato delle AMI (Amazon Linux) più recenti e sicure, evitando l'hardcoding degli ID.
 
-## 🚀 How to Deploy
-Per replicare questa infrastruttura a costo zero utilizzando le credenziali AWS:
